@@ -1,0 +1,57 @@
+
+
+
+ /*Partie en-tete de la page*/
+
+.titre{
+    display: flex;
+    gap: 830px;
+}
+
+.titre h1{
+    margin: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', ;
+}
+
+.titre button{
+    
+    width: 10%;
+    margin: 100px;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', ;
+}
+/*Style du button au survol*/
+
+.titre button:hover{
+
+    background-color: black;
+    color: white;
+}
+/*Grille d'images avec 4colonnes*/
+
+.images {
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ padding: 300px;
+ margin-top:-300px;
+ gap: 25px;
+}
+ 
+/* Text-sur-images*/
+
+.images p{
+   margin-top: -90px;
+   text-align: center;
+   color: white;
+   font-size:25px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+/*Effet de zoom au survol de chaque image*/
+
+.images img:hover{
+   
+   cursor: pointer;
+   transform: scale(1.05);
+   transition: transform 0.3s ease;
+}
