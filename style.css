@@ -1,0 +1,73 @@
+/* Général */
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 2rem 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu_item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu_item a:hover {
+    color: #ccc;
+}
+
+/* Réseaux sociaux */
+.social-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.social-list li a {
+    display: flex;
+    align-items: center;
+}
+
+.social-list img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Copyright */
+.footer_copyright {
+    width: 100%;
+    text-align: right;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 1rem;
+}
