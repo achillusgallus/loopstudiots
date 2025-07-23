@@ -1,0 +1,35 @@
+
+.partie2{
+
+    text-align: center;
+    margin-left: 25px;
+    display: flex;
+
+}
+
+#mainText{
+   background-color: white;
+   margin-top: 150px;
+   position: absolute;
+   margin-left: 500px;
+   z-index: 1001;
+   padding: 80px 0px 80px 70px;
+   text-align: center;
+   
+   
+
+}
+
+.leader{
+
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.photo1{
+    width: 700px;
+    text-align: center;
+    margin: 70px;
+    z-index: 1000;
+}
+
